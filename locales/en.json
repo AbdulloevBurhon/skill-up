@@ -1,0 +1,73 @@
+{
+  "home": {
+    "badge": "🚀 Welcome to SkillUp",
+    "banner": "Improve your",
+    "banner-1": "skills",
+    "banner-3": "with",
+    "brand": "SkillUp",
+    "desc": "Learn, grow, and reach a new level. A platform for beginners and future IT professionals and more.",
+    "btn-1": "Login",
+    "btn-2": "Register"
+  },
+
+  "login": {
+    "title": "Login",
+    "subtitle": "Sign in to your account",
+
+    "email": "Email",
+    "password": "Password",
+
+    "noAccount": "Don't have an account?",
+    "register": "Sign up",
+    "forgot": "Forgot password?",
+
+    "btn": "Login",
+    "loading": "Signing in...",
+
+    "errors": {
+      "email": "Enter your email",
+      "emailFormat": "Email must be at least 4 characters and contain @",
+      "password": "Enter your password",
+      "all": "Fill in all fields",
+      "invalid": "Invalid email or password"
+    }
+  },
+
+  "register": {
+    "title": "Register",
+    "subtitle": "Create a new account",
+
+    "name": "Name",
+    "age": "Age",
+    "email": "Email",
+    "password": "Password",
+    "confirm": "Confirm password",
+
+    "haveAccount": "Already have an account?",
+    "login": "Login",
+
+    "btn": "Sign up",
+    "loading": "Creating account...",
+
+    "errors": {
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "emailFormat": "Invalid email format",
+      "password": "Enter your password",
+      "passwordLength": "Minimum 6 characters",
+      "confirm": "Confirm your password",
+      "notMatch": "Passwords do not match",
+      "all": "Fill in all fields",
+      "age": "Enter your age",
+      "ageRange": "Age must be between 10 and 100"
+    }
+  },
+
+  "formInput": {
+    "name": "Enter your name",
+    "age": "Your age",
+    "email": "you@example.com",
+    "password": "Minimum 6 characters",
+    "confirm": "Repeat password"
+  }
+}
