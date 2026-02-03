@@ -23,7 +23,7 @@ function Profile() {
             "
         >
           <h2 className="text-sm font-semibold text-gray-900 dark:text-white">
-            Общий чат
+            Личный чат
           </h2>
 
           <Mail size={24} className="text-blue-600 dark:text-blue-400" />
@@ -46,7 +46,7 @@ function Profile() {
             "
         >
           <h2 className="text-sm font-semibold text-gray-900 dark:text-white">
-            Личные чаты
+            Глобальный Чат
           </h2>
 
           <div className="flex items-center gap-1">
