@@ -36,10 +36,10 @@ function Level() {
       </div>
 
       {/* 👤 ЦЕНТР */}
-      <div className="flex-1 flex justify-center">
+      <div className="flex-1 flex justify-center ml-10">
         <span
           className="
-          text-[14px]
+          text-[18px]
           font-bold
           bg-gradient-to-r from-sky-500 to-blue-600
           bg-clip-text text-transparent
