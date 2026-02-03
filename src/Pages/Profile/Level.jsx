@@ -4,25 +4,10 @@ function Level() {
   return (
     <div className="flex items-center w-full max-w-md px-3 py-1 select-none">
       {/* 🌟 ЛЕВО */}
-      <div className="relative flex items-center h-7 w-[140px]">
-        {/* Капсула */}
-        <div
-          className="
-          absolute left-3
-          flex items-center
-          w-32 h-[12px]
-          bg-white
-          rounded-full
-          border border-black
-          dark:border-white
-          overflow-hidden
-        "
-        >
-          <div className="h-full w-[60%] bg-gradient-to-r from-sky-400 to-blue-600" />
-        </div>
 
+      <div className="relative flex items-center h-7 w-[140px]">
         {/* ⭐ Звезда */}
-        <div className="relative z-10 flex items-center justify-center -ml-5.5 -mt-3">
+        <div className="relative z-10 flex items-center justify-center -mt-3">
           <Star
             size={46}
             fill="#2563eb"
@@ -33,24 +18,44 @@ function Level() {
             12
           </span>
         </div>
-      </div>
 
-      {/* 👤 ЦЕНТР */}
-      <div className="flex-1 flex justify-center ml-10">
-        <span
-          className="
-          text-[18px]
-          font-bold
-          bg-gradient-to-r from-sky-500 to-blue-600
-          bg-clip-text text-transparent
-          drop-shadow-sm
-          dark:from-sky-300 dark:to-blue-400
-          truncate
-          max-w-[120px]
-        "
-        >
-          John
-        </span>
+        {/* Обёртка капсулы */}
+        <div className="relative -ml-5 w-32">
+          {/* Имя сверху */}
+          <span
+            className="
+        absolute
+        -top-4
+        left-1/2
+        -translate-x-1/2
+        text-[11px]
+        font-semibold
+        text-black
+        dark:text-white
+        whitespace-nowrap
+      "
+          >
+            John
+          </span>
+
+          {/* Капсула */}
+          <div
+            className="
+        relative
+        flex items-center
+        w-full h-[12px]
+        bg-white
+        dark:bg-black
+        rounded-full
+        border border-black
+        dark:border-white
+        overflow-hidden
+      "
+          >
+            {/* Прогресс */}
+            <div className="h-full w-[60%] bg-gradient-to-r from-sky-400 to-blue-600" />
+          </div>
+        </div>
       </div>
 
       {/* 🏆 ПРАВО */}
